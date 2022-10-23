@@ -121,13 +121,17 @@ h6{
     transform: scale(90%);transition: 3s;
 }
 .pp{
-    color: black; float: left;font-family: 'Times New Roman', Times, serif;font-weight: 500;
+    color: black; float: left;font-family: 'Times New Roman', Times, serif;font-weight: 500; font-size: large;
+    
 }
 .all{
     float: left;
+    position: fixed;
+    bottom: 0px;
+    background-color: blanchedalmond;
 }
 .abu{
-    position: absolute;bottom: 0; left: 0;background-color: whitesmoke;padding-left: 20px; padding-bottom: 30px;padding-top: 20px;
+    position: absolute;bottom: 0; left: 0;background-color: ;padding-left: 20px; padding-bottom: 30px;padding-top: 20px;
 }
 
 .spa{
@@ -171,4 +175,10 @@ footer{
     margin-left: 200px;
 } 
 .footer-content-1{}
+#pop{
+    position: fixed;
+    bottom: 0px;
+    margin-left: 950px;
+    background-color: blanchedalmond;
+}
 
