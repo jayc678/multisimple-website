@@ -1,0 +1,33 @@
+body{
+	font-family: sans-serif;
+    font-size: large;
+    background-color: rgb(200, 50, 150);
+    width: calc(50px + 100%);
+}
+a{
+	color: rgb(20, 700, 50);
+}
+p{
+    z-index: 20; background-color: rgb(20,450, 500); color: rgb(0, 128, 38); width: 500px;
+}
+p:hover{
+    text-decoration: underline; font-family: fantasy; font-weight: normal; color: rgb(42, 157, 165); background-color: darkblue;
+}
+img{
+    cursor: crosshair; background-color: rgb(177, 210, 30); transform:translateX(10px) rotateX(45deg); 
+}
+h4{
+    visibility: visible; 
+}
+.button {
+    --color: green;
+    padding: .5rem;
+    border: 1px solid var(--color);
+    color: var(--color);
+    }
+    .button:hover {
+        --color: blue;
+        }
+        .button_red {
+        --color: red;
+        }    

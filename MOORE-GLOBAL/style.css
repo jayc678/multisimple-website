@@ -1,0 +1,27 @@
+.buns{border-color: white; margin-top: 100px; margin-bottom: 100px; background-color: purple; font-size: large; color: white;}
+.hov{ margin-top: 70px;}
+.buns:hover{background-color: lightskyblue; border-color: lightskyblue;}
+.howc{background-color: darkslateblue;}
+.cre{display: flex; padding-left: 370px; padding-top: 50px;}
+.cx{margin-left: 20px; border-color: aqua; background-color: darkslateblue; text-decoration: underline solid 2px;}
+.vc{background-color: darkslateblue; border-color: darkslateblue;}
+.vc:hover{border-color: aqua; background-color: aqua;}
+.cx:hover{background-color: aqua; text-decoration: none;}
+.line{border-bottom: 8px solid; padding-top: 50px; border-color: aqua;}
+.bud{display: flex; padding-top: 40px;}
+.s2{padding-left: 30px;}
+.s3{padding-left: 30px;}
+li + li{padding-top: 10px;}
+.s4{padding-left: 80px;}
+a{color: black; font-weight: bold;}
+a:hover{text-decoration: underline;}
+.frp{text-decoration: underline;}
+.keip{float: right; padding-top: 50px;}
+.p0{padding-top: 50px;}
+.o9{padding-top: 50px;}
+.y3{padding-left: 30px; padding-top: 50px; padding-bottom: 140px;}
+.y3:hover{color: black;}
+.m7:hover{text-decoration: underline solid black; color: grey;}
+.m7{color: darkturquoise; font-weight: lighter; padding-left: 10px;}
+.fas{border-radius: 30px;}
+img:hover{z-index: -10; }

@@ -1,0 +1,25 @@
+div{
+    text-align: center;
+    margin-top: 200px;
+    font: 200;
+    box-shadow: 12px 20px 30px -16px #322;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+}
+input{
+    width: 300px;
+    height: 30px;
+    background: pink;
+    border: none;
+}
+button{
+    width: 300px;
+    height: 30px;
+    background:linear-gradient(to right, pink, yellow);
+    border: none;
+}
+img{
+    width: 100px;
+}
+.bordered{border-image: linear-gradient(to left, red 20%, blue 20%, blue 40%, brown 40%, brown 60%, grey 60%, grey 80%, green 80%, green 100%); border-image-slice: 1;}

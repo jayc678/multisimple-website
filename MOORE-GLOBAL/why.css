@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family = Roboto:Ital, wght @c; 500; 1; 400 &display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+li{list-style: none;}
+.header{border-bottom: 1px solid #E2E8F0; position: fixed; background-color: violet;}
+a{text-decoration: none;}
+.navbar{display: flex; justify-content: space-between; padding: 1rem 1.5rem; align-items: center;}
+
+.bar{display: block; width: 40px; height: 5px; margin: 5px auto; -webkit-transition:all 0.3s, ease-in-out; transition: all 0.3s, ease-in-out; background-color: #101010;}
+.nav-menu{display: flex; align-items: center; justify-content: space-between;}
+.nav-link{font-size: 17px; font-weight: 400; color: #475569; position: relative;}
+.nav-link:hover{color: #482ff7; text-decoration: underline solid brown; background: #343; transition: 3s ease-in;}
+.nav-logo{font-size: 21rem; font-weight: 500; color: #482ff7;}
+.tre:hover{text-decoration: underline solid blue; color:blue;}
+.dropdown{background-color: midnightblue; overflow: scroll; width: 800px;   padding: 2px 0; position: absolute;display: none;top: 40px; border-radius: 8px;}
+.tre{text-decoration: underline solid white; color: white; }
+.tr{text-decoration: underline solid white; color: white;  margin-top: 30px; margin-bottom: 6px; text-decoration: none;}
+.tr:hover{color: blue}
+.nav-item:hover{transition: 0.3s ease;}
+.nav-item:hover .dropdown{display: flex;}
+.dropdown li:hover{background: midnightblue;}
+.dropdown li{padding: 1em; width: 300px; text-align: center; overflow-wrap: break-word;}
+.dropdown li + li{margin-top: 0.6px;}
+.nav-item{margin-left: 72px; }
+.industries{margin-left: 72px;}
+.industries:hover .dropdown{display: block;}
+

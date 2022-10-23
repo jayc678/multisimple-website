@@ -1,0 +1,60 @@
+.p1{border: 6px; outline-color: blue; border-style: dashed; border-top-left-radius: 10% 30%; border-width: 1;}
+ul {
+    list-style-type: none;
+    }li:before {
+        content: "";
+        display: inline-block;
+        margin-right: 10px;
+        height: 10px;
+        width: 10px;
+        background: linear-gradient(red, blue);
+        }
+        div {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            }
+            div#div1 {
+            z-index: 1;
+            left: 199px;
+            top: 550px;
+            background-color: blue;
+            }
+            div#div2 {
+            z-index: 3;
+            left: 350px;
+            top: 500px;
+            background-color: green;
+            }
+            div#div3 {
+            z-index: 2;
+            left: 50px;
+            top: 500px;
+            background-color: red;
+            }
+            div#div4{z-index: 4;
+            left: 200px;
+        top: 400px;
+    background-color: orange;}
+            .container {
+                display: grid;
+                grid-columns: 50px 50px 50px;
+                grid-rows: 50px 50px;
+                }.container .item1 {
+                    grid-column: 1;
+                    grid-row: 1;
+                    }
+                    .container .item2 {
+                    grid-column: 2;
+                    grid-row: 2;
+                    }
+                    .container .item3 {
+                    grid-column: 3;
+                    grid-row: 3;
+                    }
+                    .container .item4 {
+                    grid-column: 2;
+                    grid-row: 2;
+                    }
+#load{border: px solid rd; border-top: 16px solid blue; border-left: 16px solid green; border-right: 16px solid brown; border-bottom: 16px solid purple; width: 120px; height: 120px; animation: spin 5s linear infinite;}
+@keyframes spin{0%{transform: rotate(0deg);} 100%{transform: rotate(360deg);}}

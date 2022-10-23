@@ -1,0 +1,11 @@
+input[type=checkbox]{display: none;}
+.hamburger{display: none; font-size: 50px; user-select:none;}
+@media screen and (max-width:1000px) {
+    .nav-menu{display: none; position: fixed; background: pink; top: 0; right: 0;}
+    .nav-menu li:hover{display: inline-block; background-color: midnightblue;  transition: 0.3s ease;}
+    .nav-menu li + li{margin-top: 17px; font-size: large;}
+    .hamburger{display: block;  transform: translateX(30deg); padding-right: 50px;}
+    input[type=checkbox]:checked~.nav-menu{display: inline-block; top: 100px; right: 400px; }
+    .dropdown{overflow-wrap: break-word; left: 80%; top: 10px; width: 320px; height: 400px; transform: translateX(90deg); background-color: darkgreen;}
+    .dropdown li:hover{background: midnightblue;}
+}

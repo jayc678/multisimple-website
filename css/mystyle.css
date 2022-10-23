@@ -1,0 +1,95 @@
+
+body{
+	background-color: blanchedalmond;
+              font-family: cursive;
+              font-size: x-large;
+              width: 1350; zoom:1.0; border: 5px; margin: 20px; padding: 2px; margin-bottom: 20px; 
+}
+
+
+article{
+        color:black;
+        display: block; width: 700px; align-content: space-around;
+}
+
+blockquote{
+	background-color: lightgray; font-family: sans-serif;
+        opacity: 2; width: 700px; margin-right: 450px;
+}
+
+img{
+        width: 600px; height: 450px;
+        filter: brightness(5.0) grayscale(100%); 
+        filter: contrast(150%);
+        filter: opacity(80%);
+        filter:sepia(70%);
+        transform: rotateX(15deg) rotateY(30deg);
+        float: right;
+        cursor: crosshair;
+        position: relative; right: 50;
+}
+a{
+        color: white; background-color: blue;
+}
+aside{
+    height: 3950px; text-align: left; float: right; font-size: large; font-family: cursive, serif, monospace; background-color: blue; position: relative; top: 40px; bottom: 0;
+}
+aside p{
+        width: 600px; font-weight: bold; list-style-type: lower-roman; padding-left: 20px;
+}
+aside h1{
+        text-decoration: underline; font-family: cursive; letter-spacing: 9px; font-weight: 200px; background-color: blanchedalmond; text-align: center;
+}
+footer{
+        cursor:all-scroll; width: 700px;
+}
+nav{
+        background-color: blue; cursor: progress; position:static; }
+nav a{
+        text-decoration: none; transition: 2s; display: inline-block;
+}
+nav a:hover{
+        background-color: rosybrown; text-decoration: underline; transition: 1s;
+}
+input{
+        background-color: blue; color: white;
+}
+nav ul li{
+      display: inline; margin-left: 30px; margin-right: 0px; padding-right: 5px; font-family: sans-serif; 
+}
+video{
+        width: 500px; height: 500px;  max-width: 
+        600px; max-height: 700px; min-height: 400px; min-width: 300px;
+}
+footer a{
+        width: 100px; padding-left: 10px; margin-left:100px;
+}
+button a{
+        font-size: large; font-weight: 1000px; font-family: sans-serif;text-decoration: none; background-color: gray;  margin-left: 3px; text-align: center; padding-left:7px; padding-right: 7px;
+        padding-top:9px; padding-bottom: 9px; padding: 7px,7px,9px,9px;
+}
+button a:hover{
+        text-decoration: underline; background-color: slategray; zoom: 1;
+}
+button :hover{
+        background-image: none; background-color: rgb(12, 30, 20); transform: !important; shape-margin: inherit;
+} 
+button{
+        padding-top: 10px; padding-bottom: 10px; padding-right: 7px; padding-left: 7px; position: absolute;
+}h4 a{text-decoration: none;}p a{text-decoration: none;}
+ nav.1{display: inline;}
+:any-link{background-color: #565432;}
+.position-1{
+         border: 1px solid black;
+          position: fixed; top: 50px; left: 100px;
+          color: maroon;
+        }
+.position-2{
+        border: 1px solid greenyellow;
+        position: fixed;
+        bottom: 10px; right: 20px; color: tomato;
+}
+ul{list-style-type:disc; }
+.button-1{display: block; border: 2px solid purple; }.button-3{display: block; border: 3px solid blueviolet;}.button-2{display: block; border: 2px solid brown;}
+.active{color: aqua; background-color: palevioletred;}
+.ty:hover{color: red; background-color: blue;}

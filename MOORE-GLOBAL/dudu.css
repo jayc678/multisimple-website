@@ -1,0 +1,30 @@
+*{}
+.as{text-decoration: none; color: white;}
+.as:hover{text-decoration: underline solid white;}
+.red{border-top: 400px; background: url(drg.webp); background-size: cover; width: 1300px; height: 550px; background-repeat: no-repeat; text-align: right; padding-top: 250px; padding-right: 200px;}
+.ip{color: white; font-size: large; font-family: Arial, Helvetica, sans-serif;}
+#BU{margin-top: 40px; height: 50px; color: white; background: none; border: solid white;}
+.ad{color:white;}
+.ith{float: left;  transition: 3s ;padding-left: 25px; width: 700px; height: 350px; padding-top: 10px;}
+.ith:hover{transform: scale(80%); z-index: -2;}
+.p1{color: grey; font-size: large; font-family: Arial, Helvetica, sans-serif; font-weight: bold; padding-left: 20px;}
+.ds{text-decoration: none; color: darkblue; padding-top: 500px;}
+.on{border: solid darkblue; width: 300px; margin-top: 50px; height: 40px;}
+.on:hover{background: darkblue; } 
+.ds:hover{color: white;}
+.oxen{ color: midnightblue; margin-top: 100px;}
+.id{color: midnightblue;}
+.dove{color: midnightblue; font-size: large;}
+.go{padding-left: 700px;}
+.el{padding-top: 20px;}
+.rty:hover{transform: scale(80%);}
+.rty{float: right;width: 600px; transition: 3s; height: 400px;padding-top: 90px; }
+button{width: 300px; height: 40px;  border: solid; border-color: midnightblue;}
+button:hover{background-color: midnightblue;}
+.dx{color: midnightblue;}
+.dx:hover{color: white; text-decoration: none;}
+.hbu{padding-top: 90px; color: midnightblue;}
+.dgh:hover{transform: scale(80%);}
+.om{padding-top: 40px;}
+.ahg{margin-top: 80px;}
+.tui{margin-top: 32px;}

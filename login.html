@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>&copy;Login</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        canvas{
+        border:1px solid gray;
+        }
+        </style>
+        <script async>
+        window.onload = init; // call init() once the window is completely loaded
+        function init(){
+        // #1 - get reference to <canvas> element
+        var canvas = document.querySelector('canvas');
+        // #2 - get reference to the drawing context and drawing API
+        var ctx = canvas.getContext('2d');
+        // #3 - all fill operations are now in red
+        ctx.fillStyle = 'red'
+    // #4 - fill a 100x100 rectangle at x=0,y=0
+ctx.fillRect(0,0,100,100);
+// #5 - all fill operations are now in green
+ctx.fillStyle = 'green';
+// #6 - fill a 50x50 rectangle at x=25,y=25
+ctx.fillRect(25,25,50,50);
+}
+</script>
+</head>
+<body>
+    <canvas width=300 height=200>Your browser does not support canvas.</canvas>
+    <form action="calc on wep.html" target="_self" method="get"  enctype="multipart/form-data" >
+    <label for="photo">upload your photo:
+<input type="file" name="filesubmission" id="filesubmission" accept=".jpg,.png,.jpeg,.gifs" required multiple><br></label>
+<input type="submit" value="upload"><br>
+</form>
+<iframe
+width="450"
+height="350"
+src="http://maps.google.co.uk/maps?q=moma+new+york
+&amp;output=embed" ></iframe>
+<form id="form1" name="form1" oninput="out1.value = parseInt(in1.value, 10) + parseInt(in2.value, 10)">
+<fieldset>
+    <legend>Calculations</legend>
+    <input name="in1" id="in1" value="0" type="number">
+    <br />
+    +
+    <input id="in2" name="in2" value="0" type="number"><br>
+=
+<output name="out1" for="in1 in2" form="form1">0</output><br>
+</fieldset>
+</form>
+</body>

@@ -1,0 +1,28 @@
+.trapezoid{
+    width: 100px;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid red; 
+}
+.triangle{
+    -webkit-transform: rotateX(30deg)  scaleX(70%) skew(10% 40%) rotateY(20deg); box-shadow: 10px 10px 10px greenyellow, 10px 10px 10px red; width: 0px; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 100px solid green;
+}
+.triup{
+    border-top: 100px solid blue; border-left: 50px solid transparent; border-right: 50px solid transparent; width: 0;
+}
+.trileft{ border-top: 50px solid transparent; border-left: 100px solid olive; border-bottom: 50px solid transparent; width: 0;}
+.triright{ border-top: 50px solid transparent; border-right: 100px solid orange; border-bottom: 50px solid transparent; width: 0;}
+.circle{width: 100px;  background: yellow; border-radius: 100%; height: 100px;}
+.oblique{width: 100px;  background: yellow; border-radius: 100%; height: 200px;}
+.rect{width: 100px; height: 60px; background: #432561; }
+.icon {
+background: url(“icons-sprite.png”);
+display: inline-block;
+height: 20px;
+width: 20px;
+}
+.brak-8{width: 40px; height: 40px; text-align: center; -ms-transform: rotate(20deg); position: sticky; transform: rotate(20deg); background-color: #432561;}
+.brak-8::before{width: 40px; height: 40px; top: 0px;left: 0px; content: ""; background: #432561; transform: rotate(135deg); -ms-transform: rotate(135deg); position: absolute;}
+.poly{border-bottom: 20px solid #432561; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-top: 20px solid #432561; border-left: 20px solid rgb(76, 85, 51); border-right: 20px solid orange; width: 10; height: 40px;  outline: 10px solid #347582;}
+.sv{border-bottom: 20px solid #432561; border-top: 20px solid #432561; border-left: 20px solid rgb(76, 85, 51); border-right: 20px solid orange; width: 20px; height: 40px;}

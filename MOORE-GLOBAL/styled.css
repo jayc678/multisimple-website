@@ -1,0 +1,77 @@
+body{
+    background-color: gold;
+              font-size: x-large;
+            letter-spacing: 2px;
+            cursor: default;
+            direction: ltr;
+            text-transform: none;
+            width: 700px;
+            
+}
+h1{
+    margin: 10px 10px; background-color: gray;
+    
+}
+h4{
+    background-color: gold;
+}
+p{
+    background-color: grey;
+}
+h5{
+    background-image: url(../img/nestcafe+.png) no-repeat
+}
+p{
+    text-align: center; visibility: visible;
+} 
+img{
+    width: 700px;
+    height: 400px;
+    cursor: crosshair;
+    z-index: auto; zoom: 3px;
+} 
+nav a:hover{
+        background-color: rgb(12, 30, 20); text-decoration: underline;
+}
+ul a{
+    color: red; text-decoration: none;  font-family: sans-serif; background-color: blue;
+}
+li{
+    display: inline; padding-right: 15; cursor: wait;
+}
+ul a:hover{
+    text-decoration: unset; fill-opacity: 1;
+}
+button a{
+    text-decoration: none; margin-left: 10px; transform-origin: right; color:black; font-family: Arial, Helvetica, sans-serif; font-size:x-large; -moz-font-feature-settings: "liga";
+}
+button:hover{
+    text-decoration: none; background-color:thistle; font-style: oblique; font-weight: bold;
+}
+button{
+    background-color:cadetblue; height: 50px; width: 30%; -moz-box-align: center; margin-left: 28%; 
+}
+form input {
+padding: 6px 12px 6px 12px;
+border: 1px solid gray;
+color: red;}
+form input:hover{
+    background-color: fuchsia;
+}
+form input:focus{background-color: lemonchiffon;}
+form input:active{background-color: red;}
+ol a{
+    margin-left: 200px;
+}
+input:checked{background-color: aliceblue;}
+input:required::placeholder{background-color: aqua;}:in-range{border: 3px solid red;}::spelling-error{background-color: blueviolet;}:placeholder-shown{background-color: beige;}
+.box-model{border: 1px solid red; height: 30px; width: 500px; padding: 20px; margin: 20px;}
+.er{column-count: 2; column-gap: 30px; column-rule: 3px solid maroon; column-rule-style: dotted;}
+.one{border-top: 2px solid black;}
+.two{border-bottom: 50px solid black; float: right; border-left: 25px solid transparent; border-right: 25px solid transparent; width: 5px;}
+.tri{border-bottom: 50px solid black; border-left: 25px solid transparent; border-right: 25px solid transparent; width: 5px;}
+.cir{background: brown; border-radius: 100%; width: 100px; height: 100px; float: right;}
+.cir2{background: brown; border-radius: 100%; width: 100px; height: 100px;}
+.ci{ background: brown; border-radius: 100%; width: 100px; height: 100px;}
+.on{ height: 3px; color: black; background: black;}
+.ti{color: aqua; border-left: 70px dotted transparent; border-right: 70px dashed transparent; border-top: 100px solid blue; width: 70px; float: right;}

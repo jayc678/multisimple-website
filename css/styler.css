@@ -1,0 +1,58 @@
+body{direction:ltr;}
+aside{float: right; writing-mode:horizontal-tb;}
+a{margin-right: 20px; background-color: whitesmoke; padding-right: 4px;}
+.add{color: red;}
+h2{text-decoration: underline double blue; font-family: cursive; color: brown; background-color: whitesmoke; font-variant:;}
+article{padding-left: 20px;}
+h1{color: white;}
+p{color: grey;}
+button{
+    font-size: 15px;
+    padding: 0.5em 2em;
+    background-color: tomato;
+    }
+    img{float: left; margin-right: 10px;}
+    p.clear{opacity: 50%; clear: both; color: aquamarine; text-shadow: 3px 6px red, 6px 8px orange, 10px 11px orchid; text-transform: uppercase; }
+    input[type="button"]{float: left; padding-left: 4px; margin-top: 2px; margin-right: 10px;padding-top: 10px; background-color: grey; }
+    div#container{display: flex; flex-direction: column; align-items: center; color: cyan;}
+    .grow p{display: block; color: fuchsia;}
+    .deed {
+        background-color: #000;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: stretch;
+        align-items: stretch;
+        }
+        .go {
+        background-color: #ccf;
+        margin: 0.1em;
+        flex-grow: 1;
+        flex-shrink: 0;
+        }
+        .container {
+            display: grid;
+            }
+            .container {
+                display: grid;
+                grid-columns: 50px 50px 50px;
+                grid-rows: 50px 50px;
+                }
+                .container .item1 {
+                    grid-column: 1;
+                    grid-row: 1;
+                    }
+                    .container .item2 {
+                    grid-column: 2;
+                    grid-row: 1;
+                    }
+                    .container .item3 {
+                    grid-column: 1;
+                    grid-row: 2;
+                    }
+                    .container .item4 {
+                    grid-column: 2;
+                    grid-row: 2;
+}
